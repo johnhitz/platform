@@ -15,8 +15,8 @@ use Mix.Config
 # which you typically run after static files are built.
 config :platform, Platform.Web.Endpoint,
   on_init: {Platform.Web.Endpoint, :load_from_system_env, []},
-  url: [host: "jfhplatform.herokuapp.com", port: 80],
-  cache_static_manifest: "priv/static/cache_manifest.json"
+  url: [host: "fjhplatform.herokuapp.com", port: 80],
+  cache_static_manifest: "priv/static/cache_manifest.json",
   secret_key_base: System.get_env("SECRET_KEY_BASE")
 
 config :platform, Platform.Web.Repo,
