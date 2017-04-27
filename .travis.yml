@@ -1,5 +1,12 @@
 language: elixir
 elixir:
-  - 1.4.2
+- 1.4.2
 otp_release:
-  - 19.0
+- 19.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: Bt2pMjl755BIKUHoNExMqRKGLXxR8NDdy/jOu5YuItfQAutxJdicvJcZ4E/TGacoIB7HT14rO1dVEUT37ufBWw92Ns0WIdaX5VvqzoERFVM/Loqrvni+LU4BPxtl/rgSBdlfIJPSUgb4ih2rJhATUrcmDUln76ha0NiD7K85pBfhDtL/YclaQcXjuYPtqOgqj3FXNExbVlszP0+HjSgUpdEZM4iZ2DdXFr+rmbRZ6E1WXo2zSqkFsxjr1G3maS6Ow/Y7qI15Wf0JvsqLlzW4xjIHhxZQHeWuPTELh6FsjIRmhq86SJ3RK41CuB4lRqVhVjN+sKqxJTEyYtDeoNQEVAO7kdbtTyNvbNeWsb5G7G4pf7GQEduCwKZ1w9RhcKjmTUEdvzg405W11JfV6AfdnP2PYuT6ce+4k+V9YM9axOT5e1yQrlSrl2ni1nxAxXtAFErUTT/ZHa2W3tCWWo5Qod8vddnUqFccqWYSmiXS3LAYPvvX4ursKUXfKPUKnprj1Gqim0oAoN75NLTmiCsE0eHZcKlJmzS9zlUBeo3HyGKpd5UAIxXpkRewzyVNpZJswQTM0sOfL/f4gnTMFImiy8G/NdCgnhtKC6pIMxZfw03CzrBNfKmtYiHH1j13O7wUbXQZU5OIFN8APG8OkTkqnRnGoabMPzfk9SM//zct7RQ=
+  app: jfhplatform
+  on:
+    repo: johnhitz/platform
