@@ -18,3 +18,5 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+[![Build Status](https://travis-ci.org/johnhitz/platform.svg?branch=master)](https://travis-ci.org/johnhitz/platform)
